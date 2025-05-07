@@ -1,9 +1,9 @@
-pipeline {
+{
     agent any
 
     environment {
-        GIT_REPOSITORY_URL = 'https://github.com/newdelthis/docker_jenkins_demo.git'
-        DOCKER_IMAGE_NAME = 'newdelthis/docker_jenkins_demo'
+        GIT_REPOSITORY_URL = 'https://github.com/Prashali04/docker_jenkins_demo.git'
+        DOCKER_IMAGE_NAME = 'prashali04/docker_jenkins_demo'
         IMAGE_TAG = '1.0'
     }
 
